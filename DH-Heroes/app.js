@@ -27,3 +27,14 @@ app.get('/lovelace', (req,res) => {
 app.get('/turing', (req,res) => {
     res.sendFile(path.resolve(__dirname,'./views/turing.html'))
 })
+
+app.get('/hamilton', (req,res) => {
+    res.sendFile(path.resolve(__dirname,'./views/hamilton.html'))
+})
+
+app.get('/hopper', (req,res) => {
+    res.sendFile(path.resolve(__dirname,'./views/hopper.html'))
+})
+
+app.use(express.static('public'));
+app.use(express.static('./'));

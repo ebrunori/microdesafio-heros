@@ -36,5 +36,5 @@ function Navbar(){
     )
 } 
 
-ReactDOM.render(<Navbar />, document.getElementById("root"))
+ReactDOM.render(<Navbar />,  document.getElementById("root"))
 
